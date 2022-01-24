@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import ContactForm from "./components/Contact";
 import Header from "./components/Header";
 import About from "./components/About";
@@ -8,16 +8,27 @@ import Footer from "./components/Footer";
 
 function App() {
 
+  const [currentPage, handlePageChange] = useState('About');
+
+  const renderPage = () => {
+    switch (currentPage) {
+      case 'Portfolio':
+        return <Portfolio />;
+      case 'Contact':
+        return <ContactForm />;
+      default:
+        return <About />;
+    }
+  };
+
   return (
-   <div>
-     <Header></Header>
-     <main>
-     <About></About>
-     <ContactForm></ContactForm>
-     <Portfolio></Portfolio>
-     </main>
-     <Footer></Footer>
-   </div>
+    <div>
+      <Header  handlePageChange={handlePageChange} />
+      <main>
+        {renderPage(currentPage)}
+      </main>
+      <Footer />
+    </div>
   );
 }
 
