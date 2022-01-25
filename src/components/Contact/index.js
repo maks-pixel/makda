@@ -3,6 +3,7 @@ import Button from 'react-bootstrap/button';
 import Form from 'react-bootstrap/Form';
 
 function ContactForm() {
+ 
   return (
     <section>
       <h1>Contact me</h1>
@@ -11,7 +12,7 @@ function ContactForm() {
           <Form.Label>Name</Form.Label>
           <Form.Control type="name" placeholder="Enter Name" />
           <Form.Text className="text-muted">
-            We'll never share your email with anyone else.
+            you gotta add you name here.
           </Form.Text>
           </Form.Group>
           <Form.Group className="mb-3">

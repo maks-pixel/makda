@@ -18,7 +18,7 @@ function Header(props) {
                     <Nav.Link onClick={() => { props.handlePageChange('Contact') }}>Contact</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link href='https://docs.google.com/document/d/1HocFkZ6AmsC3d5gseL6kDq3k_1W_cYF1uJvNI90fwSc/edit?usp=sharing' download>
+                    <Nav.Link href={require('../../assets/resume/Resume.pdf')}>
                         Resume
                     </Nav.Link>
                 </Nav.Item>

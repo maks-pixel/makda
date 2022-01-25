@@ -6,7 +6,7 @@ function About() {
     return (
         <section>
             <Card bg='dark' text='light'>
-                <Card.Img variant="top" src={require('../../assets/images/maks.jpg')} alt='picture of the developer' />
+                <Card.Img className="photo" variant="top" src={require('../../assets/images/maks.jpg')} alt='picture of the developer' />
                 <Card.Body>
                     <Card.Text>
                         Hello, My name is Makda Girmay but most people call me Maks. I am a flegling Web Developer and all around nerd excited to learn more about web development and programming as a whole. Welcome to my First React site.
