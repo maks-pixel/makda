@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/makdaport/static/css/main.56e6221f.css",
-    "main.js": "/makdaport/static/js/main.0518b5fc.js",
-    "static/js/787.fe3b9014.chunk.js": "/makdaport/static/js/787.fe3b9014.chunk.js",
-    "static/media/maks.jpg": "/makdaport/static/media/maks.067e1db765dfc3516506.jpg",
-    "static/media/runbuddy-thumb.jpg": "/makdaport/static/media/runbuddy-thumb.9fb3156ba84e7592574b.jpg",
-    "static/media/Surveyorama.jpg": "/makdaport/static/media/Surveyorama.23ee7437847b83373f6c.jpg",
-    "static/media/Resume.pdf": "/makdaport/static/media/Resume.cdd98fef5033a2a9e587.pdf",
-    "static/media/pantry-remover.png": "/makdaport/static/media/pantry-remover.223c47a5cc89fa72d831.png",
-    "static/media/team.png": "/makdaport/static/media/team.23887bb469e4468ef0dc.png",
-    "static/media/password.png": "/makdaport/static/media/password.1a46ef3b8b6c5f887b54.png",
-    "static/media/note-taker.png": "/makdaport/static/media/note-taker.c5c64ba580b4c16d1152.png",
-    "index.html": "/makdaport/index.html",
-    "main.56e6221f.css.map": "/makdaport/static/css/main.56e6221f.css.map",
-    "main.0518b5fc.js.map": "/makdaport/static/js/main.0518b5fc.js.map",
-    "787.fe3b9014.chunk.js.map": "/makdaport/static/js/787.fe3b9014.chunk.js.map"
+    "main.css": "/makda/static/css/main.56e6221f.css",
+    "main.js": "/makda/static/js/main.2f0b89d7.js",
+    "static/js/787.fe3b9014.chunk.js": "/makda/static/js/787.fe3b9014.chunk.js",
+    "static/media/maks.jpg": "/makda/static/media/maks.067e1db765dfc3516506.jpg",
+    "static/media/runbuddy-thumb.jpg": "/makda/static/media/runbuddy-thumb.9fb3156ba84e7592574b.jpg",
+    "static/media/Surveyorama.jpg": "/makda/static/media/Surveyorama.23ee7437847b83373f6c.jpg",
+    "static/media/Resume.pdf": "/makda/static/media/Resume.cdd98fef5033a2a9e587.pdf",
+    "static/media/pantry-remover.png": "/makda/static/media/pantry-remover.223c47a5cc89fa72d831.png",
+    "static/media/team.png": "/makda/static/media/team.23887bb469e4468ef0dc.png",
+    "static/media/password.png": "/makda/static/media/password.1a46ef3b8b6c5f887b54.png",
+    "static/media/note-taker.png": "/makda/static/media/note-taker.c5c64ba580b4c16d1152.png",
+    "index.html": "/makda/index.html",
+    "main.56e6221f.css.map": "/makda/static/css/main.56e6221f.css.map",
+    "main.2f0b89d7.js.map": "/makda/static/js/main.2f0b89d7.js.map",
+    "787.fe3b9014.chunk.js.map": "/makda/static/js/787.fe3b9014.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.56e6221f.css",
-    "static/js/main.0518b5fc.js"
+    "static/js/main.2f0b89d7.js"
   ]
 }
