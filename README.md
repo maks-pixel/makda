@@ -13,7 +13,7 @@
  * [Questions](#Questions)
  
  ## Installation
- there are no steps to instal the site because it is deployed here https://maks-pixel.github.io/makdaport
+ there are no steps to instal the site because it is deployed here https://maks-pixel.github.io/makda/
  You can download the repository and run the page using npm start if you want to run the application localy
 
  ## Usage
