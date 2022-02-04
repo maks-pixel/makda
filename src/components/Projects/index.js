@@ -9,6 +9,12 @@ import Button from 'react-bootstrap/button';
 function Projects() {
     const project = [
         {
+            title: 'OkCreature',
+            image: 'OkCreature.png',
+            link: 'https://github.com/maks-pixel/pet-matcher',
+            deploy:'https://okcreature.herokuapp.com/'
+        },
+        {
             title: 'Pantry-Remover',
             image: 'pantry-remover.png',
             link: 'https://github.com/maks-pixel/ahsoka',
@@ -21,10 +27,10 @@ function Projects() {
             deploy:'https://mighty-garden-96040.herokuapp.com/'
         },
         {
-            title: 'Password Generator',
-            image: 'password.png',
-            link: 'https://github.com/maks-pixel/wk3-passwordpls',
-            deploy:'https://maks-pixel.github.io/wk3-passwordpls/'
+            title: 'Tech Blog R Us',
+            image: 'techblog.png',
+            link: 'https://github.com/maks-pixel/wk14-techblog',
+            deploy:'https://morning-scrubland-20709.herokuapp.com/'
         },
         {
             title: 'Surveyorama',
@@ -37,21 +43,15 @@ function Projects() {
             image: 'runbuddy-thumb.jpg',
             link: 'https://github.com/maks-pixel/run-buddy',
             deploy:'https://maks-pixel.github.io/run-buddy/'
-        },
-        {
-            title: 'Team Profile Generator',
-            image: 'team.png',
-            link: 'https://github.com/maks-pixel/wk10-TeamProfileGenerator',
-            deploy:'https://watch.screencastify.com/v/aABySFtQSLZdC5K5LKan'
-        },
+        }
     ];
     return (
         <div>
             <Row md={3} className="g-6">
                 {project.map((info) => (
                     <Col>
-                        <Card className="text-center" bg="secondary">
-                            <Card.Img variant="top" src={require(`../../assets/images/${info.image}`)} />
+                        <Card className="text-center" style={{ width: '40rem', height:'35rem'}}  bg="secondary">
+                            <Card.Img variant="top" style={{ width: '45 rem', height:'22rem'}}  src={require(`../../assets/images/${info.image}`)} />
                             <Card.Body>
                                 <Card.Title>{info.title}</Card.Title>
                                 <div className="d-grid gap-2">
