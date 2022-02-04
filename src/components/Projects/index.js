@@ -50,8 +50,8 @@ function Projects() {
             <Row md={3} className="g-6">
                 {project.map((info) => (
                     <Col>
-                        <Card className="text-center" style={{ width: '40rem', height:'35rem'}}  bg="secondary">
-                            <Card.Img variant="top" style={{ width: '45 rem', height:'22rem'}}  src={require(`../../assets/images/${info.image}`)} />
+                        <Card className="text-center" style={{ width: '31rem', height:'30rem'}}  bg="secondary">
+                            <Card.Img variant="top" style={{ width: '30 rem', height:'20rem'}}  src={require(`../../assets/images/${info.image}`)} />
                             <Card.Body>
                                 <Card.Title>{info.title}</Card.Title>
                                 <div className="d-grid gap-2">
