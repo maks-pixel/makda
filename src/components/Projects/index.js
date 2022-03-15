@@ -1,6 +1,4 @@
 import React from 'react';
-import Button from 'react-bootstrap/button';
-
 
 
 function Projects() {
@@ -71,8 +69,10 @@ function Projects() {
                                {info.describe}
                             </p>
                             <br />
-                             <Button  variant="outline-secondary" style = {{color: '#094067'}} href={info.link}>Repository</Button> 
-                             <Button  variant="outline-secondary" style = {{color: '#094067'}} href={info.deploy}>Deployed</Button>
+                            <div className='link-container'>
+                             <a href={info.link} ><button className='links'>Repository</button></a>
+                             <a href={info.deploy} ><button className='links'>Deployed</button></a>
+                            </div>
                     </div>
                 </div>
             ))}
