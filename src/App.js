@@ -17,12 +17,13 @@ function App() {
       case 'Contact':
         return <ContactForm />;
       default:
-        return <About />;
+        return <About />
+        ;
     }
   };
 
   return (
-    <div>
+    <div className="home-page">
       <Header  handlePageChange={handlePageChange} />
       <main>
         {renderPage(currentPage)}

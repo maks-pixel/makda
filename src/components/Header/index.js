@@ -1,28 +1,29 @@
 import React from 'react';
-import Navbar from 'react-bootstrap/Navbar'
-import Nav from 'react-bootstrap/Nav'
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+import Button from 'react-bootstrap/Button'
 
 function Header(props) {
     return (
         <header>
-            <Navbar bg="dark" variant="dark" sticky="top">
-            <Nav >
-            <Navbar.Brand >Maks Girmay</Navbar.Brand>
-                <Nav.Item>
-                    <Nav.Link onClick={() => { props.handlePageChange('About') }}>About me</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                    <Nav.Link onClick={() => { props.handlePageChange('Portfolio') }}>Portfolio</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                    <Nav.Link onClick={() => { props.handlePageChange('Contact') }}>Contact</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                    <Nav.Link href={require('../../assets/resume/Resume.pdf')}>
-                        Resume
-                    </Nav.Link>
-                </Nav.Item>
-            </Nav>
+            <Navbar className="navbar" sticky="top" style={{color: '#d8eefe', display: 'flex', justifyContent: 'space-between' }}>
+                    <Navbar.Brand style = {{color: '#d8eefe'}}>Maks Girmay</Navbar.Brand>
+                    <div className='nav-buttons'>
+                        <Nav.Item>
+                            <Button variant="outline-light" style = {{color: '#d8eefe'}} onClick={() => { props.handlePageChange('About') }}>About me</Button>
+                        </Nav.Item>
+                        <Nav.Item>
+                            <Button variant="outline-light" style = {{color: '#d8eefe'}} onClick={() => { props.handlePageChange('Portfolio') }}>Portfolio</Button>
+                        </Nav.Item>
+                        <Nav.Item>
+                            <Button variant="outline-light" style = {{color: '#d8eefe'}} onClick={() => { props.handlePageChange('Contact') }}>Contact</Button>
+                        </Nav.Item>
+                        <Nav.Item>
+                            <Button variant="outline-light" style = {{color: '#d8eefe'}} href={require('../../assets/resume/Resume.pdf')}>
+                                Resume
+                            </Button>
+                        </Nav.Item>
+                    </div>
             </Navbar>
         </header>
     );
