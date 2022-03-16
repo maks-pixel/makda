@@ -55,8 +55,10 @@ function Projects() {
     ];
     return (
         <section className='projects'>
-        <div className='header'><h1>Projects</h1></div>
+        
         <div className='all-cards'>
+            <div><h1 className='header'>Projects</h1></div>
+            <div className='card-section'>
             {project.map((info) => (
                 <div className='card-container'>
                     <div className='img-container'>
@@ -76,7 +78,7 @@ function Projects() {
                     </div>
                 </div>
             ))}
-
+            </div>
         </div>
         </section>
     );
