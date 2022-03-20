@@ -6,7 +6,7 @@ import Button from 'react-bootstrap/Button'
 function Header(props) {
     return (
         <header>
-            <Navbar className="navbar" sticky="top" style={{color: '#d8eefe', display: 'flex', justifyContent: 'space-between' }}>
+            <Navbar className="navbar" sticky="top" style={{color: '#d8eefe', display: 'flex', justifyContent: 'space-between',  backgroundColor: '#094067' }}>
                     <Navbar.Brand style = {{color: '#d8eefe', marginLeft:'10px'}}>Maks Girmay</Navbar.Brand>
                     <div className='nav-buttons'>
                         <Nav.Item>
