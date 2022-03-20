@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/makda/static/css/main.56e6221f.css",
-    "main.js": "/makda/static/js/main.adb077c1.js",
+    "main.css": "/makda/static/css/main.b7e4fc27.css",
+    "main.js": "/makda/static/js/main.4e8c00c5.js",
     "static/js/787.fe3b9014.chunk.js": "/makda/static/js/787.fe3b9014.chunk.js",
     "static/media/OkCreature.png": "/makda/static/media/OkCreature.ad92632318b5fcf4715b.png",
     "static/media/maks.jpg": "/makda/static/media/maks.067e1db765dfc3516506.jpg",
     "static/media/runbuddy-thumb.jpg": "/makda/static/media/runbuddy-thumb.9fb3156ba84e7592574b.jpg",
     "static/media/Surveyorama.jpg": "/makda/static/media/Surveyorama.23ee7437847b83373f6c.jpg",
     "static/media/techblog.png": "/makda/static/media/techblog.77fffdfb85d503252d1c.png",
-    "static/media/Resume.pdf": "/makda/static/media/Resume.cdd98fef5033a2a9e587.pdf",
     "static/media/pantry-remover.png": "/makda/static/media/pantry-remover.223c47a5cc89fa72d831.png",
+    "static/media/Resume.pdf": "/makda/static/media/Resume.761db89a8fd275a4eb8e.pdf",
     "static/media/team.png": "/makda/static/media/team.23887bb469e4468ef0dc.png",
     "static/media/password.png": "/makda/static/media/password.1a46ef3b8b6c5f887b54.png",
     "static/media/note-taker.png": "/makda/static/media/note-taker.c5c64ba580b4c16d1152.png",
     "index.html": "/makda/index.html",
-    "main.56e6221f.css.map": "/makda/static/css/main.56e6221f.css.map",
-    "main.adb077c1.js.map": "/makda/static/js/main.adb077c1.js.map",
+    "main.b7e4fc27.css.map": "/makda/static/css/main.b7e4fc27.css.map",
+    "main.4e8c00c5.js.map": "/makda/static/js/main.4e8c00c5.js.map",
     "787.fe3b9014.chunk.js.map": "/makda/static/js/787.fe3b9014.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.56e6221f.css",
-    "static/js/main.adb077c1.js"
+    "static/css/main.b7e4fc27.css",
+    "static/js/main.4e8c00c5.js"
   ]
 }
