@@ -163,7 +163,7 @@ code {
   border: 2px solid #094067;
   border-radius: 3px;
 }
-.contact-page{
+.contact{
   width:95%;
   height: 500px;
   overflow:hidden;
@@ -174,15 +174,30 @@ code {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
   margin: 50px;
   padding: 5px;
   border-radius: 6px;
 }
+.contact-page{
+  width:95%;
+  height: 500px;
+  overflow:hidden;
+  
+  transition: 0.5s;
+  background-color: #d8eefe;
+  color: #094067;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+ 
+  border-radius: 6px;
+}
 #contact-form{
   width:50%;
-  height: 400px;
-  overflow:hidden;
+  height: 380px;
+  
   box-shadow: 0px 0px 15px -5px;
   transition: 0.5s;
   background-color:#094067;
@@ -197,7 +212,7 @@ code {
 }
 .contact-links{
   width:50%;
-  height: 400px;
+  height: 380px;
   overflow:hidden;
   box-shadow: 0px 0px 15px -5px;
   transition: 0.5s;
@@ -210,4 +225,8 @@ code {
   margin: 50px;
   padding: 5px;
   border-radius: 6px;
+}
+
+.fa-4x{
+  color:#f25f4c;
 }
