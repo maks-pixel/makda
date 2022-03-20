@@ -7,7 +7,7 @@ function Header(props) {
     return (
         <header>
             <Navbar className="navbar" sticky="top" style={{color: '#d8eefe', display: 'flex', justifyContent: 'space-between' }}>
-                    <Navbar.Brand style = {{color: '#d8eefe'}}>Maks Girmay</Navbar.Brand>
+                    <Navbar.Brand style = {{color: '#d8eefe', marginLeft:'10px'}}>Maks Girmay</Navbar.Brand>
                     <div className='nav-buttons'>
                         <Nav.Item>
                             <Button variant="outline-light" style = {{color: '#d8eefe'}} onClick={() => { props.handlePageChange('About') }}>About me</Button>

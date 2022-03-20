@@ -11,7 +11,6 @@ function Footer() {
             <div className='footer-links'>
                 <a className='f-link' href='https://github.com/maks-pixel' ><FontAwesomeIcon icon={faGithub} className='fa-2x' /></a>
                 <a className='f-link' href='https://www.linkedin.com/in/makda-girmay-a8b937b0/' ><FontAwesomeIcon icon={faLinkedin} className='fa-2x' /></a>
-                <p className='f-link'> secret page </p>
            </div>
         </section>
     );
