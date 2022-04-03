@@ -1,20 +1,77 @@
 import React from 'react';
-
+import { Col, Row } from "react-bootstrap";
+import {
+    DiJavascript1,
+    DiReact,
+    DiNodejs,
+    DiMongodb,
+    DiGit,
+    DiMysql,
+    DiAngularSimple,
+    DiHeroku,
+    DiCss3,
+    DiPostgresql
+} from "react-icons/di";
+import {
+    SiVisualstudiocode,
+    SiApollographql,
+    SiExpress
+} from "react-icons/si";
 function About() {
     return (
         <section className='about'>
             <div className='about-container'>
-                <div className ='image-container'>
-                    <img className='image' src={require('../../assets/images/maks.jpg')} alt='creator'/>
-                </div>
-                <div className='bio'>
-                    <h3>Hi! my name is Makda "Maks" Girmay</h3>
+                <div className='about-bio'>
+                    <h3>Some things about Me</h3>
                     <p>
-                    I am a junior Fads,gfDKFVBw;dfv;KADJFC;IASDHB;ISDBH JEDBFPWUEHF ISDHBFKJHS DVCJHD YIWDGVJBDSJHVGADJCVBASJHGLJWBEDFVLSDGVJLSDHVOUDFUYGVLSADBFLKjdbfs dihfemdxfcglwrg ull stack Web Developer and all around nerd, welcome to my portfolio.
-                        Here you will find a bit more about me, some of my projects, my resume and a few ways to contact me. I am Looking forward to hearing form you.
+                        I am a Junior Web developer with a background in sales and customer service along with a full stack certificate from the University of Toronto. I am passionate and excited about honing my skills in HTML5, CSS, JavaScript, jQuery, Node.js, React, Express, MySQL and a bit of Python. With my experience in the bootcamp full stack projects, I have learned how to plan effectively using kanban boards and clear communication so that we identify and utilize everyone's strengths to meet tight deadlines. I look forward to learning and growing my skills as a developer and to build applications and work on projects that can help people and make a user's experience so much smoother. My professional experience deals a lot with customer satisfaction which requires understanding the needs of the person through effective communication. Using the skills I have gained in communication I can assure that my work meets user satisfaction and makes the user experience more pleasant.
                     </p>
                 </div>
+                
             </div>
+            <div className="lang-container">
+                    <Row>
+                        <Col xs={4} md={2} className="tech-icons">
+                            <DiJavascript1 />
+                        </Col>
+                        <Col xs={4} md={2} className="tech-icons">
+                            <DiNodejs />
+                        </Col>
+                        <Col xs={4} md={2} className="tech-icons">
+                            <DiReact />
+
+                        </Col>
+                        <Col xs={4} md={2} className="tech-icons">
+                            <DiMongodb />
+                        </Col>
+                        <Col xs={4} md={2} className="tech-icons">
+                            <DiGit />
+                        </Col>
+                        <Col xs={4} md={2} className="tech-icons">
+                            <DiMysql />
+
+                        </Col>
+                        <Col xs={4} md={2} className="tech-icons">
+                            <SiExpress />
+                        </Col>
+                        <Col xs={4} md={2} className="tech-icons">
+                            < DiAngularSimple />
+                        </Col>
+                        <Col xs={4} md={2} className="tech-icons">
+                            <DiHeroku />
+                        </Col>
+                        <Col xs={4} md={2} className="tech-icons">
+                            <DiCss3 />
+                        </Col>
+                        <Col xs={4} md={2} className="tech-icons">
+                            <DiPostgresql />
+                        </Col>
+                        <Col xs={4} md={2} className="tech-icons">
+                            <SiVisualstudiocode />
+                        </Col>
+
+                    </Row>
+                </div>
         </section>
 
     );
