@@ -2,8 +2,8 @@ import React from 'react';
 
 function Home() {
     return (
-        <section className='about'>
-            <div className='about-container'>
+        <section className='home'>
+            <div className='home-container'>
                 <div className ='image-container'>
                     <img className='image' src={require('../../assets/images/maks.jpg')} alt='creator'/>
                 </div>
