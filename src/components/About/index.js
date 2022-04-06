@@ -17,7 +17,7 @@ import {
     SiApollographql,
     SiExpress
 } from "react-icons/si";
-function About() {
+function About(){ 
     return (
         <section className='about'>
             <div className='about-container'>
@@ -30,16 +30,21 @@ function About() {
                 
             </div>
             <div className="lang-container">
+                <h3>Technologies</h3>
                     <Row>
                         <Col xs={4} md={2} className="tech-icons">
                             <DiJavascript1 />
                         </Col>
                         <Col xs={4} md={2} className="tech-icons">
-                            <DiNodejs />
+                            <DiCss3 />
                         </Col>
+                        
                         <Col xs={4} md={2} className="tech-icons">
                             <DiReact />
 
+                        </Col>
+                        <Col xs={4} md={2} className="tech-icons">
+                            <DiNodejs />
                         </Col>
                         <Col xs={4} md={2} className="tech-icons">
                             <DiMongodb />
@@ -55,14 +60,12 @@ function About() {
                             <SiExpress />
                         </Col>
                         <Col xs={4} md={2} className="tech-icons">
-                            < DiAngularSimple />
+                            < SiApollographql/>
                         </Col>
                         <Col xs={4} md={2} className="tech-icons">
                             <DiHeroku />
                         </Col>
-                        <Col xs={4} md={2} className="tech-icons">
-                            <DiCss3 />
-                        </Col>
+                        
                         <Col xs={4} md={2} className="tech-icons">
                             <DiPostgresql />
                         </Col>
