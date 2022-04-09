@@ -21,6 +21,9 @@ function About(){
     return (
         <section className='about'>
             <div className='about-container'>
+                <div className='image-container'>
+                <iframe src="https://giphy.com/embed/3oEjI6vws7veQwubdu" width="338" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/animation-illustration-peace-3oEjI6vws7veQwubdu">via GIPHY</a></p>
+                </div>
                 <div className='about-bio'>
                     <h3>Some things about Me</h3>
                     <p>

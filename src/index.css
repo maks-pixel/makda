@@ -129,7 +129,7 @@ background-color: #d8eefe;
 }
 
 /* about page styling */
-.about-container, .lang-container{
+.lang-container{
   box-shadow: 0px 0px 15px -5px;
   background-color: #d8eefe;
   color: #094067;
@@ -154,7 +154,7 @@ align-content: center;
 }
 
 /* home page styling */
-.home-container{
+.home-container, .about-container{
   box-shadow: 0px 0px 15px -5px;
   background-color: #d8eefe;
   color: #094067;
