@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+// import { fas } from '@fortawesome/free-solid-svg-icons'
+import {faGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons'
 
 
 function ContactForm() {
@@ -30,8 +31,9 @@ function ContactForm() {
     <section className='contact'>  
       <h1 className='header'>Contact me</h1>
     <div className='contact-page'>
-      
       <form id='contact-form' onSubmit={handleSubmit} >
+        <p>email me at: <a href="mailto: makdagirmay4@gmail.com">makdagirmay4@gmail.com</a><br />
+        or fill out the form below</p>
         <div>
           <label htmlFor="name">Name:</label>
           <input type="text" defaultValue={name} onChange={handleChange} name="name" />
@@ -48,6 +50,8 @@ function ContactForm() {
       </form>
       <div className='contact-links'>
       <a href='https://github.com/maks-pixel' ><FontAwesomeIcon icon={faGithub} className='fa-4x'/></a>
+      <a href='https://instagram.com/maksgirmay'><FontAwesomeIcon icon={faInstagram}  className='fa-4x'/></a>
+      {/* <a href="mailto: makdagirmay4@gmail.com"><FontAwesomeIcon icon="fa-solid fa-at" className='fa-4x' /></a> */}
       <a href='https://www.linkedin.com/in/makda-girmay-a8b937b0/' ><FontAwesomeIcon icon={faLinkedin} className='fa-4x'/></a>
       </div>
     </div>

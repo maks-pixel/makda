@@ -7,7 +7,7 @@ function Projects() {
             title: 'OkCreature',
             image: 'OkCreature.png',
             describe: 'Site to match users with pets they can adopt based on the answers in a quiz',
-            tech:'',
+            tech:'React.js, Express, Node.js MongoDB, GraphQL, Apollo, Javascript, React Bootstrap, Heroku',
             link: 'https://github.com/maks-pixel/pet-matcher',
             deploy: 'https://okcreature.herokuapp.com/'
         },
@@ -15,7 +15,7 @@ function Projects() {
             title: 'Pantry-Remover',
             image: 'pantry-remover.png',
             describe: 'A app for users wanting recipers with specific ingredients',
-            tech:'',
+            tech:'HTML, CSS, Javascript, Jquery, Bulma, Restful APIs (The Meal DB, The Cocktail DB)',
             link: 'https://github.com/maks-pixel/ahsoka',
             deploy: 'https://maks-pixel.github.io/ahsoka/'
         }, 
@@ -23,7 +23,7 @@ function Projects() {
             title: 'Tech Blog R Us',
             image: 'techblog.png',
             describe: 'Tech Blog for users to post and comment about tech and build a community',
-            tech:'',
+            tech:'Javascript, Node.js, Handlebars, MySQL, Sequelize, Bcrypt, Express, Express-sessions, Css, Bootstrap, Heroku',
             link: 'https://github.com/maks-pixel/wk14-techblog',
             deploy: 'https://morning-scrubland-20709.herokuapp.com/'
         },
@@ -31,7 +31,7 @@ function Projects() {
             title: 'Note Taker',
             image: 'note-taker.png',
             describe: 'A site that allows the user to make notes and have a list of notes they can go through',
-            tech:'',
+            tech:'Gtml, CSS, Javascript, Node.js, Express.js, Heroku',
             link: 'https://github.com/maks-pixel/wk11-NoteTaker',
             deploy: 'https://mighty-garden-96040.herokuapp.com/'
         },
@@ -40,7 +40,7 @@ function Projects() {
             title: 'Surveyorama',
             image: 'Surveyorama.jpg',
             describe: 'A site where a user can creat a quiz to distribute to friends to fill out',
-            tech:'',
+            tech:'Html, Css, Bootstrap, Javascript, Node.js, Handlebars, MySQL, Sequelize, Bcrypt, Express, Express-sessions, Passport.js ',
             link: 'https://github.com/maks-pixel/surveyorama',
             deploy: 'https://pacific-fortress-98134.herokuapp.com/login'
         },
@@ -48,7 +48,7 @@ function Projects() {
             title: 'Run-buddy',
             image: 'runbuddy-thumb.jpg',
             describe: 'An information site for the exercise company run-buddy',
-            tech:'',
+            tech:'Html, CSS',
             link: 'https://github.com/maks-pixel/run-buddy',
             deploy: 'https://maks-pixel.github.io/run-buddy/'
         }
@@ -68,7 +68,9 @@ function Projects() {
                             <h4 className='title'>{info.title}</h4>
                             <p className='description'>
                                 <strong>Description :</strong><br />
-                               {info.describe}
+                               {info.describe}<br /><br />
+                               <strong>Technology :</strong><br />
+                               {info.tech}
                             </p>
                             <br />
                             <div className='link-container'>
