@@ -32,8 +32,8 @@ function ContactForm() {
       <h1 className='header'>Contact me</h1>
     <div className='contact-page'>
       <form id='contact-form' onSubmit={handleSubmit} >
-        <p>email me at: <a href="mailto: makdagirmay4@gmail.com">makdagirmay4@gmail.com</a><br />
-        or fill out the form below</p>
+        <p>Email me at: <a className='email' href="mailto: makdagirmay4@gmail.com">makdagirmay4@gmail.com</a><br />
+        You can also fill out the form below</p>
         <div>
           <label htmlFor="name">Name:</label>
           <input type="text" defaultValue={name} onChange={handleChange} name="name" />

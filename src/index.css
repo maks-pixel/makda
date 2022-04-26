@@ -46,6 +46,9 @@ margin-bottom: 15px;
 .navbar-toggler.collapsed, button.navbar-toggler{
 background-color: #d8eefe;
 }
+.name:hover{
+color:#f25f4c;
+}
 
 /* projects page styling */
 .all-cards{
@@ -219,6 +222,7 @@ align-content: center;
   border-right: 3px solid;
   font-family: monospace;
   font-size: 2em;
+  color:#f25f4c;
 }
 
 @keyframes typing {
@@ -303,6 +307,13 @@ align-content: center;
   border-radius: 6px;
   text-decoration: none;
 }
+.email{
+  text-decoration: none;
+  color:#d8eefe;
+}
+.email:hover{
+  color:#f25f4c;
+}
 input, textarea{
   padding:10px;
   border-radius:10px;
@@ -333,9 +344,13 @@ input, textarea{
   align-items: center;
   flex-direction: row;
 }
+
 .f-link{
   margin: 0px 10px;
   color:#d8eefe;
+}
+.f-link:hover{
+  color:#f25f4c;
 }
 
 /* media queries styling */
