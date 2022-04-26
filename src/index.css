@@ -15,12 +15,13 @@ code {
 
 
 .home-page{
-  color: #fffffe;
+  color: #094067;
   background-color: #094067  ;
 }
 
 main{
 margin-bottom: 15px;
+background-color: #094067;
 }
 
 /* navigation styling */
@@ -190,8 +191,9 @@ align-content: center;
   align-items: center;
   align-content: center;
   /* margin: 50px; */
-  padding: 50px;
+  padding: 70px 70px 360px 70px;
   height: 100%;
+  width:100%;
   /* overflow: hidden;
   border-radius: 6px; */
 }
@@ -269,7 +271,7 @@ align-content: center;
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
-  padding: 25px;
+  padding: 70px 70px 360px 70px;
   
 }
 .contact-page{
@@ -359,6 +361,75 @@ input, textarea{
   .home-container, .about-container{
     display: flex;
     flex-direction: column-reverse;
+    height: 100%;
+  }
+  .home-container, .contact {
+    padding: 70px 70px 360px 70px;
+  }
+  .image-container{
+    display:flex;
+    justify-content: center;
+    height:100%;
+  }
+  .bio, .about-bio{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 50%;
+    flex-wrap: wrap;
+    margin: 10px;
+    width:90%;
+  }
+  .typing-demo {
+    width: 36ch;
+    animation: typing 3s steps(34), blink .5s step-end infinite alternate;
+    white-space:nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 1.8em;
+    color:#f25f4c;
+  }
+}
+@media only screen and (max-width: 800px) {
+
+  .home-container{
+   padding:50px 0px 170px 0px;
+  }
+  .image-container{
+    display:flex;
+    justify-content: center;
+    height:100%;
+  }
+  .bio, .about-bio{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 50%;
+    flex-wrap: wrap;
+    margin: 10px;
+    width:90%;
+  }
+  .typing-demo {
+    width: 36ch;
+    animation: typing 3s steps(34), blink .5s step-end infinite alternate;
+    white-space:nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 1.8em;
+    color:#f25f4c;
+  }
+  p{
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+
+ .about-container{
+    display: flex;
+    flex-direction: column;
   }
   .image-container{
     display:flex;
@@ -374,4 +445,18 @@ input, textarea{
     margin: 10px;
     width:90%;
   }
+  .typing-demo {
+    width: 36ch;
+    animation: typing 3s steps(34), blink .5s step-end infinite alternate;
+    white-space:nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 1.1em;
+    color:#f25f4c;
+  }
+  p{
+    font-size: 0.9em;
+  }
 }
+
