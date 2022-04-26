@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/makda/static/css/main.de95b618.css",
-    "main.js": "/makda/static/js/main.8213e452.js",
+    "main.css": "/makda/static/css/main.a6c3de46.css",
+    "main.js": "/makda/static/js/main.3ac97e31.js",
     "static/js/787.fe3b9014.chunk.js": "/makda/static/js/787.fe3b9014.chunk.js",
     "static/media/OkCreature.png": "/makda/static/media/OkCreature.ad92632318b5fcf4715b.png",
     "static/media/maks.jpg": "/makda/static/media/maks.067e1db765dfc3516506.jpg",
@@ -14,12 +14,12 @@
     "static/media/password.png": "/makda/static/media/password.1a46ef3b8b6c5f887b54.png",
     "static/media/note-taker.png": "/makda/static/media/note-taker.c5c64ba580b4c16d1152.png",
     "index.html": "/makda/index.html",
-    "main.de95b618.css.map": "/makda/static/css/main.de95b618.css.map",
-    "main.8213e452.js.map": "/makda/static/js/main.8213e452.js.map",
+    "main.a6c3de46.css.map": "/makda/static/css/main.a6c3de46.css.map",
+    "main.3ac97e31.js.map": "/makda/static/js/main.3ac97e31.js.map",
     "787.fe3b9014.chunk.js.map": "/makda/static/js/787.fe3b9014.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.de95b618.css",
-    "static/js/main.8213e452.js"
+    "static/css/main.a6c3de46.css",
+    "static/js/main.3ac97e31.js"
   ]
 }
