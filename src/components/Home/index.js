@@ -4,7 +4,6 @@ function Home() {
     return (
         <section className='home'>
             <div className='home-container'>
-                
                 <div className='image-container-about'>
                     <iframe src="https://giphy.com/embed/3oEjI6vws7veQwubdu" width="338" height="480" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
                 </div>

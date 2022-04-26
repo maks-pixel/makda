@@ -11,7 +11,6 @@ function Header(props) {
         <header>
             
             <Navbar className="navbar" sticky="top" style={{color: '#d8eefe', display: 'flex', justifyContent: 'space-between',  backgroundColor: '#094067' }} collapseOnSelect expand="lg">
-                
                     <Navbar.Brand className="name" style = {{color: '#d8eefe', marginLeft:'10px'}} onClick={() => { props.handlePageChange('Home') }}>Maks Girmay</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav"  />
                     <Navbar.Collapse id="responsive-navbar-nav" >
