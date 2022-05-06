@@ -49,8 +49,8 @@ function Projects() {
             image: 'WhatsTheWeather.png',
             describe:'This is a weather site that allows users to  search for any city or country and find the weather for that location for that day and the week. This is using a Weather API',
             tech:'HTML5, CSS, Javascript, RESTful APIs (lat/long API and Weather API)',
-            link:'https://maks-pixel.github.io/whats-the-weather/',
-            deploy:'https://github.com/maks-pixel/whats-the-weather'
+            deploy:'https://maks-pixel.github.io/whats-the-weather/',
+            link:'https://github.com/maks-pixel/whats-the-weather'
         },
         {
             title: 'Run-buddy',
