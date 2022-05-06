@@ -15,7 +15,7 @@ function Projects() {
             title: 'Pantry-Remover',
             image: 'pantry-remover.png',
             describe: 'A app for users wanting recipers with specific ingredients',
-            tech:'HTML, CSS, Javascript, Jquery, Bulma, Restful APIs (The Meal DB, The Cocktail DB)',
+            tech:'HTML, CSS, Javascript, Jquery, Bulma, RESTful APIs (The Meal DB, The Cocktail DB)',
             link: 'https://github.com/maks-pixel/ahsoka',
             deploy: 'https://maks-pixel.github.io/ahsoka/'
         }, 
@@ -31,18 +31,26 @@ function Projects() {
             title: 'Note Taker',
             image: 'note-taker.png',
             describe: 'A site that allows the user to make notes and have a list of notes they can go through',
-            tech:'Gtml, CSS, Javascript, Node.js, Express.js, Heroku',
+            tech:'Html, CSS, Javascript, Node.js, Express.js, Heroku',
             link: 'https://github.com/maks-pixel/wk11-NoteTaker',
             deploy: 'https://mighty-garden-96040.herokuapp.com/'
         },
        
+        // {
+        //     title: 'Surveyorama',
+        //     image: 'Surveyorama.jpg',
+        //     describe: 'A site where a user can creat a quiz to distribute to friends to fill out',
+        //     tech:'Html, Css, Bootstrap, Javascript, Node.js, Handlebars, MySQL, Sequelize, Bcrypt, Express, Express-sessions, Passport.js ',
+        //     link: 'https://github.com/maks-pixel/surveyorama',
+        //     deploy: 'https://pacific-fortress-98134.herokuapp.com/login'
+        // },
         {
-            title: 'Surveyorama',
-            image: 'Surveyorama.jpg',
-            describe: 'A site where a user can creat a quiz to distribute to friends to fill out',
-            tech:'Html, Css, Bootstrap, Javascript, Node.js, Handlebars, MySQL, Sequelize, Bcrypt, Express, Express-sessions, Passport.js ',
-            link: 'https://github.com/maks-pixel/surveyorama',
-            deploy: 'https://pacific-fortress-98134.herokuapp.com/login'
+            title: 'Whats the Weather',
+            image: 'WhatsTheWeather.png',
+            describe:'This is a weather site that allows users to  search for any city or country and find the weather for that location for that day and the week. This is using a Weather API',
+            tech:'HTML5, CSS, Javascript, RESTful APIs (lat/long API and Weather API)',
+            link:'https://maks-pixel.github.io/whats-the-weather/',
+            deploy:'https://github.com/maks-pixel/whats-the-weather'
         },
         {
             title: 'Run-buddy',

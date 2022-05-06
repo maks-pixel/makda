@@ -10,9 +10,7 @@ function Home() {
                 <div className='bio'>
                     <h3 className='typing-demo'>Hi! My name is Makda "Maks" Girmay</h3>
                     <p>
-                    I am a Junior Full stack Web Developer, barista and all around nerd, welcome to my portfolio.
-                        Here you will find a bit more about me, some of my projects, my resume and a few ways to contact me. I am Looking forward to hearing from you.
-                    </p>
+                    I am full stack developer, coffee-connoisseur, plant-wizard, and self-proclaimed comedian...welcome to my portfolio! Here you will find a bit more about me, and some of my projects I've done so far. If you want to know more, feel free to click the Contact button at the top! I am looking forward to hearing from you!         </p>
                 </div>
             </div>
         </section>
