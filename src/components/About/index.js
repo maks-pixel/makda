@@ -24,12 +24,13 @@ function About() {
                     <img className='image' src={require('../../assets/images/maks.jpg')} alt='creator'/>
                 </div>
                 <div className='about-bio'>
-                    <h2>Some things about Me</h2>
+                    <h2>A Bit about me</h2>
                     <p>
-                        I am a Junior Web developer with a background in sales and customer service along with a full stack certificate from the University of Toronto. I am passionate and excited about honing my skills in HTML5, CSS, JavaScript, jQuery, Node.js, React, Express, MySQL along with learning new technologies. <br/>
-                        With my experience in the bootcamp full stack projects, I have learned how to plan effectively using kanban boards and clear communication so that we identify and utilize everyone's strengths to meet tight deadlines. <br/>
-                        I look forward to learning and growing my skills as a developer and to build applications and work on projects that can help people and make a user's experience so much smoother. My professional experience deals a lot with customer satisfaction which requires understanding the needs of the person through effective communication. Using the skills I have gained in communication I can assure that my work meets user satisfaction and makes the user experience more pleasant.
-                    </p>
+                       
+                    I have always been interested in code. I spent a good portion of the pandemic teaching myself the basics but with all that isolation had me desiring a more structured educational environment and community. Well I definitely got that, I recently got a full stack bootcamp certificate from the University of Toronto. My passion for web development has grown so much in the last two years. I am excited about honing my skills in HTML5, CSS, JavaScript, jQuery, Node.js, React, Express, MySQL along with learning new technologies.<br/>
+                    But there is more to me than just web development. I am a photographer, barista, and HUGE NERD! If I'm not engulfed in my next project, I am reading, perfecting my latte art, watching anime or biking around the city trying to find something beautiful to capture.<br/>
+                    I want to bring more multifaceted POC women into tech spaces. I am motivated to grow and learn, to build more applications and work on projects that can help people. I believe having a more diverse group of people can cultivate more innovation and creativity in this industry. As a woman of colour with a background in customer service, business administration and marketing I have a very unique perspective. I know that along with great communication skills, time management and a great foundation in full stack web development that the bootcamp has provided for me, i have great potential in this field.
+ </p>
                 </div>
 
             </div>
