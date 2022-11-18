@@ -20,9 +20,7 @@ function About() {
     return (
         <section className='about'>
             <div className='about-container'>
-            <div className ='image-container'>
-                    <img className='image' src={require('../../assets/images/maks.jpg')} alt='creator'/>
-                </div>
+           
                 <div className='about-bio'>
                     <h2>A Bit about me</h2>
                     <p>
@@ -32,7 +30,9 @@ function About() {
                     I want to bring more multifaceted POC women into tech spaces. I am motivated to grow and learn, to build more applications and work on projects that can help people. I believe having a more diverse group of people can cultivate more innovation and creativity in this industry. As a woman of colour with a background in customer service, business administration and marketing I have a very unique perspective. I know that along with great communication skills, time management and a great foundation in full stack web development that the bootcamp has provided for me, i have great potential in this field.
  </p>
                 </div>
-
+ <div className ='image-container-about'>
+                    <iframe src="https://giphy.com/embed/3oEjI6vws7veQwubdu" width="338" height="480" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
+                </div>
             </div>
             <div className="lang-container">
                 <h1>Technologies</h1>
